@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="JavaScriptTestSuite" time="26" tests="2" failures="1" errors="0">
+   <testsuite name="JavaScriptTestSuite" tests="2" failures="1" errors="0" time="26" timestamp="2017-12-09 23:27:48" hostname="Rahul - Rahul-Dell-PC" id="Test Suites/JavaScriptTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\JavaScriptTestSuite\\20171209_232745"/>
+         <property name="logFiles" value="C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\JavaScriptTestSuite\\20171209_232745\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\JavaScriptTestSuite\\20171209_232745\\1512842283965.png"/>
+         <property name="hostName" value="Rahul - Rahul-Dell-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="b3ead1911981b8603cad1bf11c635cbd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/JavaScriptPopup/TC-HandlingConfirmationPopupScriptMode" classname="Test Cases/JavaScriptPopup/TC-HandlingConfirmationPopupScriptMode" status="PASSED">
+         <system-out><![CDATA[2017-12-09 23:27:57 - [TEST_CASE][PASSED] - Test Cases/JavaScriptPopup/TC-HandlingConfirmationPopupScriptMode: Switched to window with index: '0'
+
+2017-12-09 23:27:58 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2017-12-09 23:27:58 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2017-12-09 23:27:58 - [TEST_STEP][NOT_RUN] - waitForPageLoad: NOT_RUN: waitForPageLoad
+
+2017-12-09 23:27:58 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad
+
+2017-12-09 23:27:58 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2017-12-09 23:27:58 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2017-12-09 23:27:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/ConfirmationPopup' is clicked on
+
+2017-12-09 23:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/ConfirmationPopup' is clicked on
+
+2017-12-09 23:27:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-09 23:28:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-09 23:28:01 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2017-12-09 23:28:02 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2017-12-09 23:28:02 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/W3School/TryItButtonFrame'
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 23:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 40 second(s).
+
+2017-12-09 23:28:03 - [MESSAGE][PASSED] - Alert is present after 40 second(s).
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-12-09 23:28:03 - [MESSAGE][PASSED] - Alert accepted
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 23:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 40 second(s).
+
+2017-12-09 23:28:03 - [MESSAGE][PASSED] - Alert is present after 40 second(s).
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Press a button!'
+
+2017-12-09 23:28:03 - [MESSAGE][PASSED] - Get alert text successfully: 'Press a button!'
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - Statement - println(alertText): null
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - dismissAlert: Alert dismissed
+
+2017-12-09 23:28:03 - [MESSAGE][PASSED] - Alert dismissed
+
+2017-12-09 23:28:03 - [TEST_STEP][NOT_RUN] - switchToDefaultContent: NOT_RUN: switchToDefaultContent
+
+2017-12-09 23:28:03 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToDefaultContent
+
+2017-12-09 23:28:03 - [TEST_STEP][NOT_RUN] - closeWindowIndex: NOT_RUN: closeWindowIndex
+
+2017-12-09 23:28:03 - [MESSAGE][NOT_RUN] - NOT_RUN: closeWindowIndex
+
+2017-12-09 23:28:03 - [TEST_STEP][NOT_RUN] - switchToWindowIndex: NOT_RUN: switchToWindowIndex
+
+2017-12-09 23:28:03 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToWindowIndex
+
+2017-12-09 23:28:03 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2017-12-09 23:28:03 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Switched to window with index: '0'
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2017-12-09 23:28:03 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2017-12-09 23:28:03 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2017-12-09 23:28:03 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode" classname="Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/W3School/TryItBtn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a target=&quot;_blank&quot; href=&quot;tryit.asp?filename=tryjs_alert&quot; class=&quot;w3-btn w3-margin-bottom&quot;>...&lt;/a> is not clickable at point (327, 19). Other element would receive the click: &lt;a class=&quot;w3-bar-item w3-button&quot; href=&quot;/sql/default.asp&quot; title=&quot;... Tutorial&quot;>SQL&lt;/a>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RAHUL-DELL-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Rahul\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: b3ead1911981b8603cad1bf11c635cbd)"/>
+         <system-out><![CDATA[2017-12-09 23:28:03 - [TEST_CASE][FAILED] - Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode: Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode FAILED because (of) Unable to click on object 'Object Repository/W3School/TryItBtn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a target="_blank" href="tryit.asp?filename=tryjs_alert" class="w3-btn w3-margin-bottom">...</a> is not clickable at point (327, 19). Other element would receive the click: <a class="w3-bar-item w3-button" href="/sql/default.asp" title="... Tutorial">SQL</a>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RAHUL-DELL-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Rahul\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: b3ead1911981b8603cad1bf11c635cbd)
+
+2017-12-09 23:28:03 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2017-12-09 23:28:03 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2017-12-09 23:28:03 - [TEST_STEP][NOT_RUN] - waitForPageLoad: NOT_RUN: waitForPageLoad
+
+2017-12-09 23:28:03 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad
+
+2017-12-09 23:28:03 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2017-12-09 23:28:03 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2017-12-09 23:28:03 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/W3School/TryItBtn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a target="_blank" href="tryit.asp?filename=tryjs_alert" class="w3-btn w3-margin-bottom">...</a> is not clickable at point (327, 19). Other element would receive the click: <a class="w3-bar-item w3-button" href="/sql/default.asp" title="... Tutorial">SQL</a>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RAHUL-DELL-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Rahul\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: b3ead1911981b8603cad1bf11c635cbd)
+
+2017-12-09 23:28:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/W3School/TryItBtn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a target="_blank" href="tryit.asp?filename=tryjs_alert" class="w3-btn w3-margin-bottom">...</a> is not clickable at point (327, 19). Other element would receive the click: <a class="w3-bar-item w3-button" href="/sql/default.asp" title="... Tutorial">SQL</a>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RAHUL-DELL-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Rahul\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: b3ead1911981b8603cad1bf11c635cbd)
+[[ATTACHMENT|C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\JavaScriptTestSuite\\20171209_232745\\1512842283965.png]]
+
+2017-12-09 23:28:04 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Switched to window with index: '0'
+
+2017-12-09 23:28:04 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-12-09 23:28:04 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2017-12-09 23:28:08 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2017-12-09 23:28:08 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2017-12-09 23:28:08 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[2017-12-09 23:28:03 - [TEST_CASE][FAILED] - Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode: Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode FAILED because (of) Unable to click on object 'Object Repository/W3School/TryItBtn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a target="_blank" href="tryit.asp?filename=tryjs_alert" class="w3-btn w3-margin-bottom">...</a> is not clickable at point (327, 19). Other element would receive the click: <a class="w3-bar-item w3-button" href="/sql/default.asp" title="... Tutorial">SQL</a>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RAHUL-DELL-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Rahul\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: b3ead1911981b8603cad1bf11c635cbd)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation" classname="Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation" status="PASSED">
+         <system-out><![CDATA[2017-12-09 23:28:08 - [TEST_CASE][PASSED] - Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation: Switched to window with index: '0'
+
+2017-12-09 23:28:08 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2017-12-09 23:28:08 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2017-12-09 23:28:08 - [TEST_STEP][NOT_RUN] - waitForPageLoad: NOT_RUN: waitForPageLoad
+
+2017-12-09 23:28:08 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad
+
+2017-12-09 23:28:08 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2017-12-09 23:28:08 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2017-12-09 23:28:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/ConfirmationPopup' is clicked on
+
+2017-12-09 23:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/ConfirmationPopup' is clicked on
+
+2017-12-09 23:28:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-09 23:28:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-09 23:28:11 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2017-12-09 23:28:11 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2017-12-09 23:28:11 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/W3School/TryItButtonFrame'
+
+2017-12-09 23:28:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 23:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 23:28:12 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 40 second(s).
+
+2017-12-09 23:28:12 - [MESSAGE][PASSED] - Alert is present after 40 second(s).
+
+2017-12-09 23:28:12 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-12-09 23:28:12 - [MESSAGE][PASSED] - Alert accepted
+
+2017-12-09 23:28:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-09 23:28:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-09 23:28:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 23:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 23:28:13 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 40 second(s).
+
+2017-12-09 23:28:13 - [MESSAGE][PASSED] - Alert is present after 40 second(s).
+
+2017-12-09 23:28:13 - [TEST_STEP][PASSED] - dismissAlert: Alert dismissed
+
+2017-12-09 23:28:13 - [MESSAGE][PASSED] - Alert dismissed
+
+2017-12-09 23:28:13 - [TEST_STEP][NOT_RUN] - switchToDefaultContent: NOT_RUN: switchToDefaultContent
+
+2017-12-09 23:28:13 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToDefaultContent
+
+2017-12-09 23:28:13 - [TEST_STEP][NOT_RUN] - closeWindowIndex: NOT_RUN: closeWindowIndex
+
+2017-12-09 23:28:13 - [MESSAGE][NOT_RUN] - NOT_RUN: closeWindowIndex
+
+2017-12-09 23:28:13 - [TEST_STEP][NOT_RUN] - switchToWindowIndex: NOT_RUN: switchToWindowIndex
+
+2017-12-09 23:28:13 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToWindowIndex
+
+2017-12-09 23:28:13 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2017-12-09 23:28:13 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser
+
+2017-12-09 23:28:13 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Switched to window with index: '0'
+
+2017-12-09 23:28:13 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-12-09 23:28:13 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2017-12-09 23:28:13 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2017-12-09 23:28:13 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2017-12-09 23:28:13 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-09 23:27:48 - [TEST_SUITE][FAILED] - JavaScriptTestSuite: Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode FAILED because (of) Unable to click on object 'Object Repository/W3School/TryItBtn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a target="_blank" href="tryit.asp?filename=tryjs_alert" class="w3-btn w3-margin-bottom">...</a> is not clickable at point (327, 19). Other element would receive the click: <a class="w3-bar-item w3-button" href="/sql/default.asp" title="... Tutorial">SQL</a>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RAHUL-DELL-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Rahul\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: b3ead1911981b8603cad1bf11c635cbd)]]></system-out>
+      <system-err><![CDATA[2017-12-09 23:27:48 - [TEST_SUITE][FAILED] - JavaScriptTestSuite: Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode FAILED because (of) Unable to click on object 'Object Repository/W3School/TryItBtn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a target="_blank" href="tryit.asp?filename=tryjs_alert" class="w3-btn w3-margin-bottom">...</a> is not clickable at point (327, 19). Other element would receive the click: <a class="w3-bar-item w3-button" href="/sql/default.asp" title="... Tutorial">SQL</a>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RAHUL-DELL-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Rahul\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: b3ead1911981b8603cad1bf11c635cbd)]]></system-err>
+   </testsuite>
+</testsuites>

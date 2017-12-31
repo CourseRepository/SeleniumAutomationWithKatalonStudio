@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-GetValueWithConditions</name>
+   <tag>Regression</tag>
+   <comment></comment>
+   <testCaseGuid>addf15b8-ebfb-4d18-898a-d9b136030470</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bda911e6-fc28-41b1-bf44-66e32b1b0fa7</id>
+      <masked>false</masked>
+      <name>rowTwoVariable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8949f290-ccd5-43cb-9d0d-c43ba1d81d27</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

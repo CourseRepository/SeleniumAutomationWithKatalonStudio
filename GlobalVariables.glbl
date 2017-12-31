@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.1.108:5001/'</initValue>
+      <name>ApplicationUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rahul@bugzila.com'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'welcome'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>DelayTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Explicit Wait Timeout</description>
+      <initValue>40</initValue>
+      <name>TimeOut</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

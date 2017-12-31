@@ -1,0 +1,83 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.annotation.SetUp
+import com.kms.katalon.core.annotation.TearDown
+import com.kms.katalon.core.annotation.TearDownIfPassed
+import com.kms.katalon.core.annotation.TearDownIfError
+import com.kms.katalon.core.annotation.TearDownIfFailed
+
+/*
+ * return type <name of method> (<argumets..>){}
+ * 
+ * */
+
+
+@SetUp
+void SetUpMehtod(){
+	CustomKeywords.'com.helper.login.LoginHelper.loginIntoApplicationWith'()
+	System.out.println("[--- This is Setup Method ---]")
+}
+
+@TearDown
+void TearDown(){
+	System.out.println("[--- This is Tear Down Method ---]")
+	CustomKeywords.'com.helper.login.LoginHelper.logoutFromApplication'()
+}
+
+@TearDownIfFailed
+void TearDownOnFail(){
+	String path = WebUI.takeScreenshot();
+	System.out.println("[Screen Shot] : " + path)
+}
+
+@TearDownIfPassed
+void TearDownOnPass(){
+	System.out.println("[--- This is Tear Down Method on Pass ---]")
+}
+
+@TearDownIfError
+void TearDownOnError(){
+	System.out.println("[--- This is Tear Down Method on Error ---]")
+}
+
+WebUI.waitForElementVisible(findTestObject('Bugzilla/EnterBug/TestngProductLink'), GlobalVariable.TimeOut)
+
+WebUI.verifyElementText(findTestObject('Bugzilla/EnterBug/TestngProductLink'), 'Testng')
+
+WebUI.click(findTestObject('Bugzilla/EnterBug/TestngProductLink'))
+
+WebUI.waitForElementVisible(findTestObject('Bugzilla/EnterBugDetailScreen/Component'), GlobalVariable.TimeOut)
+
+WebUI.selectOptionByValue(findTestObject('Bugzilla/EnterBugDetailScreen/Component'), 'Groups of groups', false)
+
+WebUI.sendKeys(findTestObject('Bugzilla/EnterBugDetailScreen/Summary'), 'Testng Bug')
+
+WebUI.sendKeys(findTestObject('Bugzilla/EnterBugDetailScreen/Description'), 'Testng Bug')
+
+WebUI.click(findTestObject('Bugzilla/EnterBugDetailScreen/SubmitBugButton'))
+
+WebUI.waitForElementVisible(findTestObject('Bugzilla/EnterBugDetailScreen/Hardware'), GlobalVariable.TimeOut)
+
+WebUI.verifyTextPresent('Bug abc', false)
+
+//WebUI.verifyTextPresent('Bug abc', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+

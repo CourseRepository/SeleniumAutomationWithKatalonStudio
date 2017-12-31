@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - UpdateProperty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>89438649-0a09-40a8-9d24-27521485d2c2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>7c6fe5cb-dfab-4673-847c-4a41ddecec76</id>
+      <masked>false</masked>
+      <name>new_Object</name>
+   </variable>
+</TestCaseEntity>

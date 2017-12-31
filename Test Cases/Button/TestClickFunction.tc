@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestClickFunction</description>
+   <name>TestClickFunction</name>
+   <tag>Browser</tag>
+   <comment></comment>
+   <testCaseGuid>dfe4983f-5d5b-4f4b-b0f4-048e6be8cfbf</testCaseGuid>
+</TestCaseEntity>

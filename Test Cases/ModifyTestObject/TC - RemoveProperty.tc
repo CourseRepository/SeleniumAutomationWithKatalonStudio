@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - RemoveProperty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be04e9b6-4320-40c3-b847-0702fddd47c9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject(null)</defaultValue>
+      <description></description>
+      <id>8c9bd228-2c58-4b41-a2d6-3a1900586455</id>
+      <masked>false</masked>
+      <name>new_Object</name>
+   </variable>
+</TestCaseEntity>

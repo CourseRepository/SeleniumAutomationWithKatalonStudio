@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="JavaScriptTestSuite" time="33" tests="3" failures="0" errors="0">
+   <testsuite name="JavaScriptTestSuite" tests="3" failures="0" errors="0" time="33" timestamp="2017-12-09 11:56:11" hostname="Rahul - Rahul-Dell-PC" id="Test Suites/JavaScriptTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\JavaScriptTestSuite\\20171209_115609"/>
+         <property name="logFiles" value="C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\JavaScriptTestSuite\\20171209_115609\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Rahul - Rahul-Dell-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="d1ae4cffb62cedcc46232f718e53e1d0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/JavaScriptPopup/TC-HandlingConfirmationPopupScriptMode" classname="Test Cases/JavaScriptPopup/TC-HandlingConfirmationPopupScriptMode" status="PASSED">
+         <system-out><![CDATA[2017-12-09 11:56:12 - [TEST_CASE][PASSED] - Test Cases/JavaScriptPopup/TC-HandlingConfirmationPopupScriptMode: Test Cases/JavaScriptPopup/TC-HandlingConfirmationPopupScriptMode
+
+2017-12-09 11:56:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2017-12-09 11:56:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2017-12-09 11:56:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-09 11:56:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-09 11:56:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-09 11:56:20 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-09 11:56:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/ConfirmationPopup' is clicked on
+
+2017-12-09 11:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/ConfirmationPopup' is clicked on
+
+2017-12-09 11:56:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-09 11:56:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-09 11:56:22 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2017-12-09 11:56:22 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2017-12-09 11:56:22 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/W3School/TryItButtonFrame'
+
+2017-12-09 11:56:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:23 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 40 second(s).
+
+2017-12-09 11:56:23 - [MESSAGE][PASSED] - Alert is present after 40 second(s).
+
+2017-12-09 11:56:23 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-12-09 11:56:23 - [MESSAGE][PASSED] - Alert accepted
+
+2017-12-09 11:56:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:24 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 40 second(s).
+
+2017-12-09 11:56:24 - [MESSAGE][PASSED] - Alert is present after 40 second(s).
+
+2017-12-09 11:56:24 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Press a button!'
+
+2017-12-09 11:56:24 - [MESSAGE][PASSED] - Get alert text successfully: 'Press a button!'
+
+2017-12-09 11:56:24 - [TEST_STEP][PASSED] - Statement - println(alertText): null
+
+2017-12-09 11:56:24 - [TEST_STEP][PASSED] - dismissAlert: Alert dismissed
+
+2017-12-09 11:56:24 - [MESSAGE][PASSED] - Alert dismissed
+
+2017-12-09 11:56:24 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-12-09 11:56:24 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2017-12-09 11:56:24 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2017-12-09 11:56:24 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2017-12-09 11:56:24 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2017-12-09 11:56:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-09 11:56:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode" classname="Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode" status="PASSED">
+         <system-out><![CDATA[2017-12-09 11:56:24 - [TEST_CASE][PASSED] - Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode: Test Cases/JavaScriptPopup/TC-HandlingJavaScriptAlertScriptMode
+
+2017-12-09 11:56:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2017-12-09 11:56:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2017-12-09 11:56:29 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-09 11:56:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-09 11:56:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-09 11:56:30 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-09 11:56:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2017-12-09 11:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryItBtn' is clicked on
+
+2017-12-09 11:56:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-09 11:56:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-09 11:56:32 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2017-12-09 11:56:32 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2017-12-09 11:56:32 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/W3School/TryItButtonFrame'
+
+2017-12-09 11:56:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:34 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 40 second(s).
+
+2017-12-09 11:56:34 - [MESSAGE][PASSED] - Alert is present after 40 second(s).
+
+2017-12-09 11:56:34 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-12-09 11:56:34 - [MESSAGE][PASSED] - Alert accepted
+
+2017-12-09 11:56:34 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2017-12-09 11:56:34 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2017-12-09 11:56:34 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2017-12-09 11:56:34 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2017-12-09 11:56:34 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2017-12-09 11:56:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-09 11:56:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation" classname="Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation" status="PASSED">
+         <system-out><![CDATA[2017-12-09 11:56:34 - [TEST_CASE][PASSED] - Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation: Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation
+
+2017-12-09 11:56:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2017-12-09 11:56:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2017-12-09 11:56:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-09 11:56:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-09 11:56:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-09 11:56:40 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-09 11:56:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/ConfirmationPopup' is clicked on
+
+2017-12-09 11:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/ConfirmationPopup' is clicked on
+
+2017-12-09 11:56:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-09 11:56:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-09 11:56:42 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2017-12-09 11:56:42 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2017-12-09 11:56:42 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/W3School/TryItButtonFrame'
+
+2017-12-09 11:56:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:43 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 40 second(s).
+
+2017-12-09 11:56:43 - [MESSAGE][PASSED] - Alert is present after 40 second(s).
+
+2017-12-09 11:56:43 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2017-12-09 11:56:43 - [MESSAGE][PASSED] - Alert accepted
+
+2017-12-09 11:56:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-12-09 11:56:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-09 11:56:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/TryButton' is clicked on
+
+2017-12-09 11:56:44 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 40 second(s).
+
+2017-12-09 11:56:44 - [MESSAGE][PASSED] - Alert is present after 40 second(s).
+
+2017-12-09 11:56:44 - [TEST_STEP][NOT_RUN] - dismissAlert: NOT_RUN: dismissAlert
+
+2017-12-09 11:56:44 - [MESSAGE][NOT_RUN] - NOT_RUN: dismissAlert
+
+2017-12-09 11:56:44 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2017-12-09 11:56:44 - [MESSAGE][WARNING] - Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2017-12-09 11:56:44 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2017-12-09 11:56:44 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2017-12-09 11:56:44 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2017-12-09 11:56:45 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2017-12-09 11:56:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-09 11:56:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-09 11:56:11 - [TEST_SUITE][PASSED] - JavaScriptTestSuite: Test Cases/JavaScriptPopup/TC-HandlingJavaScriptConfirmation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

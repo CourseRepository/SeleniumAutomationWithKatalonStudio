@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - FileUploadScriptMode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e232ff8-2598-49d3-9af3-666cacb4e41a</testCaseGuid>
+   <variable>
+      <defaultValue>'ScreenShot_Upload'</defaultValue>
+      <description></description>
+      <id>8a19dd6b-2c24-4bbe-92e2-5a1be3c25b57</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

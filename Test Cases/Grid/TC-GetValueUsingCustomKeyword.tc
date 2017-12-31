@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-GetValueUsingCustomKeyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7cb78f90-6337-4b52-a73f-e559add59175</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>69b20c3e-5eac-449a-9829-68da81bb60a0</id>
+      <masked>false</masked>
+      <name>rowTwoVariable</name>
+   </variable>
+</TestCaseEntity>

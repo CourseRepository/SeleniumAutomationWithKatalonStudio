@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-GetValueWithSwitch</name>
+   <tag>Regression</tag>
+   <comment></comment>
+   <testCaseGuid>6839cc53-c1c4-42f2-a068-ab81e57983e5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ce41155d-d8f8-4db8-904b-98e3a25ba15c</id>
+      <masked>false</masked>
+      <name>rowTwoVariable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aeb3970c-c6f9-472e-a8d1-6b8ca3db1851</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

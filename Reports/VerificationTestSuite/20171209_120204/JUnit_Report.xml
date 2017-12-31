@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VerificationTestSuite" time="48" tests="2" failures="2" errors="0">
+   <testsuite name="VerificationTestSuite" tests="2" failures="2" errors="0" time="48" timestamp="2017-12-09 12:02:05" hostname="Rahul - Rahul-Dell-PC" id="Test Suites/VerificationTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204"/>
+         <property name="logFiles" value="C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204\\1512801137997.png, C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204\\1512801138254.png, C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204\\1512801173838.png, C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204\\1512801174051.png"/>
+         <property name="hostName" value="Rahul - Rahul-Dell-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="e3e34ad73ce2e8e2493cffc757be303f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verification/TC-VerifyElementText" classname="Test Cases/Verification/TC-VerifyElementText" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Bug abc' is present  (Root cause: Text 'Bug abc' is not present on page )"/>
+         <system-out><![CDATA[2017-12-09 12:02:06 - [TEST_CASE][FAILED] - Test Cases/Verification/TC-VerifyElementText: Test Cases/Verification/TC-VerifyElementText FAILED because (of) Unable to verify text 'Bug abc' is present  (Root cause: Text 'Bug abc' is not present on page )
+
+2017-12-09 12:02:06 - [TEST_STEP][PASSED] - Initialize: Method 'Initialize' complete successfully
+
+2017-12-09 12:02:06 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith: com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2017-12-09 12:02:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.1.108:5001/'
+
+2017-12-09 12:02:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-09 12:02:12 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-09 12:02:12 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/FlieBugLink' is visible
+
+2017-12-09 12:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/FlieBugLink' is clicked on
+
+2017-12-09 12:02:13 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/LoginPage/LoginBtn' is visible
+
+2017-12-09 12:02:13 - [MESSAGE][PASSED] - Keys 'rahul@bugzila.com' sent to object: 'Object Repository/Bugzilla/LoginPage/UsernameTxtBox'
+
+2017-12-09 12:02:13 - [MESSAGE][PASSED] - Keys 'welcome' sent to object: 'Object Repository/Bugzilla/LoginPage/PasswordTxtBox'
+
+2017-12-09 12:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/LoginPage/LoginBtn' is clicked on
+
+2017-12-09 12:02:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-09 12:02:15 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2017-12-09 12:02:15 - [MESSAGE][PASSED] - Method 'Initialize' complete successfully
+
+2017-12-09 12:02:15 - [TEST_STEP][NOT_RUN] - com.helper.login.LoginHelper.loginIntoApplicationWith: NOT_RUN: com.helper.login.LoginHelper.loginIntoApplicationWith
+
+2017-12-09 12:02:15 - [MESSAGE][NOT_RUN] - NOT_RUN: com.helper.login.LoginHelper.loginIntoApplicationWith
+
+2017-12-09 12:02:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is visible
+
+2017-12-09 12:02:15 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is visible
+
+2017-12-09 12:02:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' are matched.
+
+2017-12-09 12:02:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' are matched.
+
+2017-12-09 12:02:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is clicked on
+
+2017-12-09 12:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is clicked on
+
+2017-12-09 12:02:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' is visible
+
+2017-12-09 12:02:16 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' is visible
+
+2017-12-09 12:02:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Groups of groups' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2017-12-09 12:02:16 - [MESSAGE][PASSED] - All options with value 'Groups of groups' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2017-12-09 12:02:16 - [TEST_STEP][PASSED] - sendKeys: Keys 'Testng Bug' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Summary'
+
+2017-12-09 12:02:16 - [MESSAGE][PASSED] - Keys 'Testng Bug' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Summary'
+
+2017-12-09 12:02:16 - [TEST_STEP][PASSED] - sendKeys: Keys 'Testng Bug' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Description'
+
+2017-12-09 12:02:16 - [MESSAGE][PASSED] - Keys 'Testng Bug' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Description'
+
+2017-12-09 12:02:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bugzilla/EnterBugDetailScreen/SubmitBugButton' is clicked on
+
+2017-12-09 12:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/EnterBugDetailScreen/SubmitBugButton' is clicked on
+
+2017-12-09 12:02:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware' is visible
+
+2017-12-09 12:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware' is visible
+
+2017-12-09 12:02:17 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Bug abc' is present  (Root cause: Text 'Bug abc' is not present on page )
+
+2017-12-09 12:02:17 - [MESSAGE][FAILED] - Text 'Bug abc' is not present on page 
+
+2017-12-09 12:02:18 - [MESSAGE][FAILED] - Unable to verify text 'Bug abc' is present  (Root cause: Text 'Bug abc' is not present on page )
+[[ATTACHMENT|C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204\\1512801137997.png]]
+
+2017-12-09 12:02:18 - [TEST_STEP][PASSED] - TearDown: Method 'TearDown' complete successfully
+
+2017-12-09 12:02:18 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2017-12-09 12:02:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204\\1512801138254.png]]
+
+2017-12-09 12:02:18 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.logoutFromApplication: com.helper.login.LoginHelper.logoutFromApplication is PASSED
+
+2017-12-09 12:02:18 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/LogoutBtn' is visible
+
+2017-12-09 12:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/LogoutBtn' is clicked on
+
+2017-12-09 12:02:19 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/FlieBugLink' is visible
+
+2017-12-09 12:02:20 - [MESSAGE][PASSED] - Browser is closed
+
+2017-12-09 12:02:20 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.logoutFromApplication is PASSED
+
+2017-12-09 12:02:20 - [MESSAGE][PASSED] - Method 'TearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[2017-12-09 12:02:06 - [TEST_CASE][FAILED] - Test Cases/Verification/TC-VerifyElementText: Test Cases/Verification/TC-VerifyElementText FAILED because (of) Unable to verify text 'Bug abc' is present  (Root cause: Text 'Bug abc' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verification/TC-VerifySaveButton" classname="Test Cases/Verification/TC-VerifySaveButton" status="PASSED">
+         <system-out><![CDATA[2017-12-09 12:02:20 - [TEST_CASE][PASSED] - Test Cases/Verification/TC-VerifySaveButton: Test Cases/Verification/TC-VerifySaveButton
+
+2017-12-09 12:02:20 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith: com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2017-12-09 12:02:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.1.108:5001/'
+
+2017-12-09 12:02:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-09 12:02:24 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-09 12:02:24 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/FlieBugLink' is visible
+
+2017-12-09 12:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/FlieBugLink' is clicked on
+
+2017-12-09 12:02:25 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/LoginPage/LoginBtn' is visible
+
+2017-12-09 12:02:25 - [MESSAGE][PASSED] - Keys 'rahul@bugzila.com' sent to object: 'Object Repository/Bugzilla/LoginPage/UsernameTxtBox'
+
+2017-12-09 12:02:25 - [MESSAGE][PASSED] - Keys 'welcome' sent to object: 'Object Repository/Bugzilla/LoginPage/PasswordTxtBox'
+
+2017-12-09 12:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/LoginPage/LoginBtn' is clicked on
+
+2017-12-09 12:02:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-09 12:02:26 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2017-12-09 12:02:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is visible
+
+2017-12-09 12:02:27 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is visible
+
+2017-12-09 12:02:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is clicked on
+
+2017-12-09 12:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is clicked on
+
+2017-12-09 12:02:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' is visible
+
+2017-12-09 12:02:28 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' is visible
+
+2017-12-09 12:02:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Logging Listeners' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2017-12-09 12:02:28 - [MESSAGE][PASSED] - All options with value 'Logging Listeners' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2017-12-09 12:02:28 - [TEST_STEP][PASSED] - sendKeys: Keys 'Testng Bug for listner' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Summary'
+
+2017-12-09 12:02:28 - [MESSAGE][PASSED] - Keys 'Testng Bug for listner' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Summary'
+
+2017-12-09 12:02:28 - [TEST_STEP][PASSED] - sendKeys: Keys 'Testng Bug for listner' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Description'
+
+2017-12-09 12:02:28 - [MESSAGE][PASSED] - Keys 'Testng Bug for listner' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Description'
+
+2017-12-09 12:02:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bugzilla/EnterBugDetailScreen/SubmitBugButton' is clicked on
+
+2017-12-09 12:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/EnterBugDetailScreen/SubmitBugButton' is clicked on
+
+2017-12-09 12:02:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware' is visible
+
+2017-12-09 12:02:29 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware' is visible
+
+2017-12-09 12:02:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Bugzilla/BugSubmitted/SaveChanges' is present
+
+2017-12-09 12:02:29 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/BugSubmitted/SaveChanges' is present
+
+2017-12-09 12:02:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-09 12:02:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-09 12:02:31 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.logoutFromApplication: com.helper.login.LoginHelper.logoutFromApplication is PASSED
+
+2017-12-09 12:02:31 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/LogoutBtn' is visible
+
+2017-12-09 12:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/LogoutBtn' is clicked on
+
+2017-12-09 12:02:32 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/FlieBugLink' is visible
+
+2017-12-09 12:02:32 - [MESSAGE][PASSED] - Browser is closed
+
+2017-12-09 12:02:32 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.logoutFromApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verification/TC-VerifyTextPresent" classname="Test Cases/Verification/TC-VerifyTextPresent" status="PASSED">
+         <system-out><![CDATA[2017-12-09 12:02:32 - [TEST_CASE][PASSED] - Test Cases/Verification/TC-VerifyTextPresent: Test Cases/Verification/TC-VerifyTextPresent
+
+2017-12-09 12:02:33 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith: com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2017-12-09 12:02:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.1.108:5001/'
+
+2017-12-09 12:02:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-09 12:02:37 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-09 12:02:37 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/FlieBugLink' is visible
+
+2017-12-09 12:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/FlieBugLink' is clicked on
+
+2017-12-09 12:02:37 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/LoginPage/LoginBtn' is visible
+
+2017-12-09 12:02:38 - [MESSAGE][PASSED] - Keys 'rahul@bugzila.com' sent to object: 'Object Repository/Bugzilla/LoginPage/UsernameTxtBox'
+
+2017-12-09 12:02:38 - [MESSAGE][PASSED] - Keys 'welcome' sent to object: 'Object Repository/Bugzilla/LoginPage/PasswordTxtBox'
+
+2017-12-09 12:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/LoginPage/LoginBtn' is clicked on
+
+2017-12-09 12:02:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-09 12:02:39 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2017-12-09 12:02:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is visible
+
+2017-12-09 12:02:39 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is visible
+
+2017-12-09 12:02:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'TestProduct' is present on page 
+
+2017-12-09 12:02:40 - [MESSAGE][PASSED] - Text 'TestProduct' is present on page 
+
+2017-12-09 12:02:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-09 12:02:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-09 12:02:42 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.logoutFromApplication: com.helper.login.LoginHelper.logoutFromApplication is PASSED
+
+2017-12-09 12:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/LogoutBtn' is visible
+
+2017-12-09 12:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/LogoutBtn' is clicked on
+
+2017-12-09 12:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/FlieBugLink' is visible
+
+2017-12-09 12:02:43 - [MESSAGE][PASSED] - Browser is closed
+
+2017-12-09 12:02:43 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.logoutFromApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verification/TC-VerifySaveButtonScriptMode" classname="Test Cases/Verification/TC-VerifySaveButtonScriptMode" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' located by 'By.xpath: //a[text()='Testng']' not found)"/>
+         <system-out><![CDATA[2017-12-09 12:02:43 - [TEST_CASE][FAILED] - Test Cases/Verification/TC-VerifySaveButtonScriptMode: Test Cases/Verification/TC-VerifySaveButtonScriptMode FAILED because (of) Unable to verify object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' located by 'By.xpath: //a[text()='Testng']' not found)
+
+2017-12-09 12:02:43 - [TEST_STEP][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith: com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2017-12-09 12:02:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.1.108:5001/'
+
+2017-12-09 12:02:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-09 12:02:47 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-09 12:02:47 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/HomePage/FlieBugLink' is visible
+
+2017-12-09 12:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/HomePage/FlieBugLink' is clicked on
+
+2017-12-09 12:02:48 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/LoginPage/LoginBtn' is visible
+
+2017-12-09 12:02:48 - [MESSAGE][PASSED] - Keys 'rahul@bugzila.com' sent to object: 'Object Repository/Bugzilla/LoginPage/UsernameTxtBox'
+
+2017-12-09 12:02:48 - [MESSAGE][PASSED] - Keys 'welcome' sent to object: 'Object Repository/Bugzilla/LoginPage/PasswordTxtBox'
+
+2017-12-09 12:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/LoginPage/LoginBtn' is clicked on
+
+2017-12-09 12:02:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-12-09 12:02:50 - [MESSAGE][PASSED] - com.helper.login.LoginHelper.loginIntoApplicationWith is PASSED
+
+2017-12-09 12:02:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is visible
+
+2017-12-09 12:02:50 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is visible
+
+2017-12-09 12:02:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is clicked on
+
+2017-12-09 12:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is clicked on
+
+2017-12-09 12:02:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' is visible
+
+2017-12-09 12:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' is visible
+
+2017-12-09 12:02:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Logging Listeners' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2017-12-09 12:02:51 - [MESSAGE][PASSED] - All options with value 'Logging Listeners' are selected in object 'Object Repository/Bugzilla/EnterBugDetailScreen/Component' 
+
+2017-12-09 12:02:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'Testng Listener Bug' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Summary'
+
+2017-12-09 12:02:51 - [MESSAGE][PASSED] - Keys 'Testng Listener Bug' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Summary'
+
+2017-12-09 12:02:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'Testng Listener Bug' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Description'
+
+2017-12-09 12:02:51 - [MESSAGE][PASSED] - Keys 'Testng Listener Bug' sent to object: 'Object Repository/Bugzilla/EnterBugDetailScreen/Description'
+
+2017-12-09 12:02:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Bugzilla/EnterBugDetailScreen/SubmitBugButton' is clicked on
+
+2017-12-09 12:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Bugzilla/EnterBugDetailScreen/SubmitBugButton' is clicked on
+
+2017-12-09 12:02:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware' is visible
+
+2017-12-09 12:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/Bugzilla/EnterBugDetailScreen/Hardware' is visible
+
+2017-12-09 12:02:52 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' located by 'By.xpath: //a[text()='Testng']' not found)
+
+2017-12-09 12:02:54 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' located by 'By.xpath: //a[text()='Testng']' not found
+[[ATTACHMENT|C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204\\1512801173838.png]]
+
+2017-12-09 12:02:54 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' located by 'By.xpath: //a[text()='Testng']' not found)
+[[ATTACHMENT|C:\\Users\\Rahul\\Desktop\\Katalon 5\\SeleniumAutomation\\Reports\\VerificationTestSuite\\20171209_120204\\1512801174051.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-09 12:02:43 - [TEST_CASE][FAILED] - Test Cases/Verification/TC-VerifySaveButtonScriptMode: Test Cases/Verification/TC-VerifySaveButtonScriptMode FAILED because (of) Unable to verify object 'Object Repository/Bugzilla/EnterBug/TestngProductLink' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Bugzilla/EnterBug/TestngProductLink' located by 'By.xpath: //a[text()='Testng']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-09 12:02:05 - [TEST_SUITE][FAILED] - VerificationTestSuite: Test Cases/Verification/TC-VerifyElementText FAILED because (of) Unable to verify text 'Bug abc' is present  (Root cause: Text 'Bug abc' is not present on page )]]></system-out>
+      <system-err><![CDATA[2017-12-09 12:02:05 - [TEST_SUITE][FAILED] - VerificationTestSuite: Test Cases/Verification/TC-VerifyElementText FAILED because (of) Unable to verify text 'Bug abc' is present  (Root cause: Text 'Bug abc' is not present on page )]]></system-err>
+   </testsuite>
+</testsuites>

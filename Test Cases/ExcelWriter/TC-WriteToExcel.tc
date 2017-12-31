@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-WriteToExcel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1f5121f-1196-4383-b878-88b5cd05ce05</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24f82de6-d706-4656-bf6a-6aca167cf3d0</id>
+      <masked>false</masked>
+      <name>ui_variable</name>
+   </variable>
+</TestCaseEntity>

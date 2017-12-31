@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case for text verification</description>
+   <name>TC-VerifyTextPresent</name>
+   <tag>Verification</tag>
+   <comment></comment>
+   <testCaseGuid>a0aa6551-4cf3-40f2-802b-5755ab73b4fa</testCaseGuid>
+</TestCaseEntity>

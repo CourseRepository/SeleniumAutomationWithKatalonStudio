@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BrowserFunctionScriptMode</description>
+   <name>BrowserFunctionScriptMode</name>
+   <tag>Browser</tag>
+   <comment></comment>
+   <testCaseGuid>daf2b10d-775a-4dd2-b4ec-497dcbd522c1</testCaseGuid>
+</TestCaseEntity>

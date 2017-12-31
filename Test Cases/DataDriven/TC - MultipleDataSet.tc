@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - MultipleDataSet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c37b7ea-da01-4e59-a8a1-d32ba81cd045</testCaseGuid>
+   <variable>
+      <defaultValue>'Annotations'</defaultValue>
+      <description></description>
+      <id>3063b917-cf28-4421-a723-fea939f309b3</id>
+      <masked>false</masked>
+      <name>var_componet</name>
+   </variable>
+   <variable>
+      <defaultValue>'6.9.13.4'</defaultValue>
+      <description></description>
+      <id>23cbb681-c58c-49d9-b02a-adbc4d07bbe8</id>
+      <masked>false</masked>
+      <name>var_version</name>
+   </variable>
+   <variable>
+      <defaultValue>'blocker'</defaultValue>
+      <description></description>
+      <id>a730d015-7eb4-4f85-a759-f2453e3aca20</id>
+      <masked>false</masked>
+      <name>var_severity</name>
+   </variable>
+   <variable>
+      <defaultValue>'Macintosh'</defaultValue>
+      <description></description>
+      <id>37a858d2-0b8c-4e36-925f-844f18485011</id>
+      <masked>false</masked>
+      <name>var_hardware</name>
+   </variable>
+   <variable>
+      <defaultValue>'Windows'</defaultValue>
+      <description></description>
+      <id>ec190d62-3fe9-409e-b394-380d968f8d32</id>
+      <masked>false</masked>
+      <name>var_os</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b1917fdf-62b9-433e-a5c8-6cdd84682764</id>
+      <masked>false</masked>
+      <name>var_summary</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>18264616-954a-4a77-8f93-c0cd36428b04</id>
+      <masked>false</masked>
+      <name>var_description</name>
+   </variable>
+</TestCaseEntity>

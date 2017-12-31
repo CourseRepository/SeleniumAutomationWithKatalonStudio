@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-GetValueWithComponenet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>294aa548-b070-40c4-bbf3-8933f7d3b8c7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>033bcc04-b847-492e-a29b-120385c7d71d</id>
+      <masked>false</masked>
+      <name>rowTwoVariable</name>
+   </variable>
+</TestCaseEntity>

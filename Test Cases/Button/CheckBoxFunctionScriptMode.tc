@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CheckBoxFunctionScriptMode</description>
+   <name>CheckBoxFunctionScriptMode</name>
+   <tag>Regression</tag>
+   <comment></comment>
+   <testCaseGuid>956a418f-dc50-4eb4-8b0c-f8734e7af4e6</testCaseGuid>
+</TestCaseEntity>

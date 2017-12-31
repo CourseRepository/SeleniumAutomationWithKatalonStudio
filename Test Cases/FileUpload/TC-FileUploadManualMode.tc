@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-FileUploadManualMode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7786f952-2a4f-4b14-a943-26deff838456</testCaseGuid>
+   <variable>
+      <defaultValue>'ScreenShot_Upload'</defaultValue>
+      <description></description>
+      <id>03a31eae-e5af-4d24-a22b-7c8cab8992b0</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

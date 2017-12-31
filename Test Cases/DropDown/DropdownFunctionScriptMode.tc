@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DropdownFunctionScriptMode</description>
+   <name>DropdownFunctionScriptMode</name>
+   <tag>DropDown</tag>
+   <comment></comment>
+   <testCaseGuid>c66dd4fb-75d3-48cd-8db4-82f9b1da00dc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DropDownManualMode</description>
+   <name>DropDownManualMode</name>
+   <tag>DropDown</tag>
+   <comment></comment>
+   <testCaseGuid>2d614a8d-eb7b-4ac6-95a3-636a1aa12008</testCaseGuid>
+   <variable>
+      <defaultValue>'http://localhost:5001/'</defaultValue>
+      <description></description>
+      <id>215032af-38b3-46d8-b4fa-51cd856865dc</id>
+      <name>ApplicationUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'rahul@bugzila.com'</defaultValue>
+      <description></description>
+      <id>d3417b7c-1558-44f4-8f41-c6c58bae2e6e</id>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'welcome'</defaultValue>
+      <description></description>
+      <id>e10232bc-299b-4822-ae7e-6ae718cca46b</id>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>0b8679e0-f223-4812-92fb-e071a90d2f9d</id>
+      <name>DelayTime</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9580ea74-4b80-420e-ac5d-8b07e0f473a6</id>
+      <name>path</name>
+   </variable>
+</TestCaseEntity>

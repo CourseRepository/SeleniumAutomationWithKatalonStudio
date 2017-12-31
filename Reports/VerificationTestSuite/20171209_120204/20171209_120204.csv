@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VerificationTestSuite,Chrome 63.0.3239.84,,2017-12-09 12:02:05,2017-12-09 12:02:54,48.947s,FAILED
+,,,,,,
+Test Cases/Verification/TC-VerifyElementText,Chrome 63.0.3239.84,,2017-12-09 12:02:06,2017-12-09 12:02:20,13.849s,FAILED
+Initialize,Chrome 63.0.3239.84,,2017-12-09 12:02:06,2017-12-09 12:02:15,8.868s,PASSED
+com.helper.login.LoginHelper.loginIntoApplicationWith,Chrome 63.0.3239.84,,2017-12-09 12:02:15,2017-12-09 12:02:15,0.016s,NOT_RUN
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:15,2017-12-09 12:02:15,0.063s,PASSED
+verifyElementText,Chrome 63.0.3239.84,,2017-12-09 12:02:15,2017-12-09 12:02:15,0.051s,PASSED
+click,Chrome 63.0.3239.84,,2017-12-09 12:02:15,2017-12-09 12:02:16,0.970s,PASSED
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:16,2017-12-09 12:02:16,0.038s,PASSED
+selectOptionByValue,Chrome 63.0.3239.84,,2017-12-09 12:02:16,2017-12-09 12:02:16,0.104s,PASSED
+sendKeys,Chrome 63.0.3239.84,,2017-12-09 12:02:16,2017-12-09 12:02:16,0.071s,PASSED
+sendKeys,Chrome 63.0.3239.84,,2017-12-09 12:02:16,2017-12-09 12:02:16,0.078s,PASSED
+click,Chrome 63.0.3239.84,,2017-12-09 12:02:16,2017-12-09 12:02:17,1.085s,PASSED
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:17,2017-12-09 12:02:17,0.039s,PASSED
+verifyTextPresent,Chrome 63.0.3239.84,,2017-12-09 12:02:17,2017-12-09 12:02:18,0.418s,FAILED
+TearDown,Chrome 63.0.3239.84,,2017-12-09 12:02:18,2017-12-09 12:02:20,1.798s,PASSED
+,,,,,,
+Test Cases/Verification/TC-VerifySaveButton,Chrome 63.0.3239.84,,2017-12-09 12:02:20,2017-12-09 12:02:32,12.794s,PASSED
+com.helper.login.LoginHelper.loginIntoApplicationWith,Chrome 63.0.3239.84,,2017-12-09 12:02:20,2017-12-09 12:02:26,6.668s,PASSED
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:26,2017-12-09 12:02:27,0.052s,PASSED
+click,Chrome 63.0.3239.84,,2017-12-09 12:02:27,2017-12-09 12:02:28,0.983s,PASSED
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:28,2017-12-09 12:02:28,0.033s,PASSED
+selectOptionByValue,Chrome 63.0.3239.84,,2017-12-09 12:02:28,2017-12-09 12:02:28,0.085s,PASSED
+sendKeys,Chrome 63.0.3239.84,,2017-12-09 12:02:28,2017-12-09 12:02:28,0.104s,PASSED
+sendKeys,Chrome 63.0.3239.84,,2017-12-09 12:02:28,2017-12-09 12:02:28,0.104s,PASSED
+click,Chrome 63.0.3239.84,,2017-12-09 12:02:28,2017-12-09 12:02:29,1.087s,PASSED
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:29,2017-12-09 12:02:29,0.038s,PASSED
+verifyElementPresent,Chrome 63.0.3239.84,,2017-12-09 12:02:29,2017-12-09 12:02:29,0.034s,PASSED
+delay,Chrome 63.0.3239.84,,2017-12-09 12:02:29,2017-12-09 12:02:31,2.003s,PASSED
+com.helper.login.LoginHelper.logoutFromApplication,Chrome 63.0.3239.84,,2017-12-09 12:02:31,2017-12-09 12:02:32,1.376s,PASSED
+,,,,,,
+Test Cases/Verification/TC-VerifyTextPresent,Chrome 63.0.3239.84,Test case for text verification,2017-12-09 12:02:32,2017-12-09 12:02:43,10.431s,PASSED
+com.helper.login.LoginHelper.loginIntoApplicationWith,Chrome 63.0.3239.84,,2017-12-09 12:02:33,2017-12-09 12:02:39,6.742s,PASSED
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:39,2017-12-09 12:02:39,0.077s,PASSED
+verifyTextPresent,Chrome 63.0.3239.84,,2017-12-09 12:02:39,2017-12-09 12:02:40,0.063s,PASSED
+delay,Chrome 63.0.3239.84,,2017-12-09 12:02:40,2017-12-09 12:02:42,2.003s,PASSED
+com.helper.login.LoginHelper.logoutFromApplication,Chrome 63.0.3239.84,,2017-12-09 12:02:42,2017-12-09 12:02:43,1.362s,PASSED
+,,,,,,
+Test Cases/Verification/TC-VerifySaveButtonScriptMode,Chrome 63.0.3239.84,,2017-12-09 12:02:43,2017-12-09 12:02:54,10.847s,FAILED
+com.helper.login.LoginHelper.loginIntoApplicationWith,Chrome 63.0.3239.84,,2017-12-09 12:02:43,2017-12-09 12:02:50,6.704s,PASSED
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:50,2017-12-09 12:02:50,0.045s,PASSED
+click,Chrome 63.0.3239.84,,2017-12-09 12:02:50,2017-12-09 12:02:51,1.007s,PASSED
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:51,2017-12-09 12:02:51,0.037s,PASSED
+selectOptionByValue,Chrome 63.0.3239.84,,2017-12-09 12:02:51,2017-12-09 12:02:51,0.087s,PASSED
+sendKeys,Chrome 63.0.3239.84,,2017-12-09 12:02:51,2017-12-09 12:02:51,0.082s,PASSED
+sendKeys,Chrome 63.0.3239.84,,2017-12-09 12:02:51,2017-12-09 12:02:51,0.091s,PASSED
+click,Chrome 63.0.3239.84,,2017-12-09 12:02:51,2017-12-09 12:02:52,1.104s,PASSED
+waitForElementVisible,Chrome 63.0.3239.84,,2017-12-09 12:02:52,2017-12-09 12:02:52,0.031s,PASSED
+verifyElementPresent,Chrome 63.0.3239.84,,2017-12-09 12:02:52,2017-12-09 12:02:54,1.456s,FAILED

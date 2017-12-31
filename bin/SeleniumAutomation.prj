@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>SeleniumAutomation</name>
+   <tag></tag>
+   <UUID>8768badd-1129-4c98-b183-5ecc37b057d6</UUID>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>
