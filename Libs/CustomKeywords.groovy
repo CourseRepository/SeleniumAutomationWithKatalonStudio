@@ -104,6 +104,16 @@ def static "com.helper.browserhelper.CustomBrowser.closeBrowser"() {
     (new com.helper.browserhelper.CustomBrowser()).closeBrowser()
 }
 
+def static "com.question.VerifyInItemGrid.verifyItemInTheGrid"(
+    	TestObject topDropDown	
+     , 	int dropDownItemCount	
+     , 	TestObject gridItemTestObject	) {
+    (new com.question.VerifyInItemGrid()).verifyItemInTheGrid(
+        	topDropDown
+         , 	dropDownItemCount
+         , 	gridItemTestObject)
+}
+
 def static "com.question.UniqueSelection.SelectCheckBox"() {
     (new com.question.UniqueSelection()).SelectCheckBox()
 }
