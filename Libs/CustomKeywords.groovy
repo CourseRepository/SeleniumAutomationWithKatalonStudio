@@ -104,6 +104,12 @@ def static "com.helper.browserhelper.CustomBrowser.closeBrowser"() {
     (new com.helper.browserhelper.CustomBrowser()).closeBrowser()
 }
 
+def static "com.question.VerifyAllElements.scrollAndVerfiyElement"(
+    	String tagName	) {
+    (new com.question.VerifyAllElements()).scrollAndVerfiyElement(
+        	tagName)
+}
+
 def static "com.question.VerifyInItemGrid.verifyItemInTheGrid"(
     	TestObject topDropDown	
      , 	int dropDownItemCount	

@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Guru99\\LoadingObject\\TC-VerifyLoadingItem\\20180101_151156\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Guru99\\LoadingObject\\TC-VerifyItem\\20180105_234347\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/Guru99/LoadingObject/TC-VerifyLoadingItem', new TestCaseBinding('Test Cases/Guru99/LoadingObject/TC-VerifyLoadingItem', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/Guru99/LoadingObject/TC-VerifyItem', new TestCaseBinding('Test Cases/Guru99/LoadingObject/TC-VerifyItem', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/Guru99/LoadingObject/TC-VerifyLoadingItem')
+    TestCaseMain.logError(e, 'Test Cases/Guru99/LoadingObject/TC-VerifyItem')
 }

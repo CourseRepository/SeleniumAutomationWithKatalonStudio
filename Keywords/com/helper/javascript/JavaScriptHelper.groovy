@@ -16,7 +16,7 @@ public class JavaScriptHelper {
 	
 	
 	// To get implementation for webdriver api from KS
-	WebDriver driver = DriverFactory.getWebDriver();
+	WebDriver driver = DriverFactory.getWebDriver()
 	
 	//To get the instance of Java Script executor interface
 	JavascriptExecutor executor = ((JavascriptExecutor)driver)
