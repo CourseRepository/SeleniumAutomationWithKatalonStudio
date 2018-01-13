@@ -120,6 +120,18 @@ def static "com.question.VerifyInItemGrid.verifyItemInTheGrid"(
          , 	gridItemTestObject)
 }
 
+def static "com.question.VerifyInItemGrid.multipleTestObject"(
+    	String str	
+     , 	TestObject objectOne	
+     , 	TestObject objectTwo	
+     , 	TestObject ObjectThree	) {
+    (new com.question.VerifyInItemGrid()).multipleTestObject(
+        	str
+         , 	objectOne
+         , 	objectTwo
+         , 	ObjectThree)
+}
+
 def static "com.question.UniqueSelection.SelectCheckBox"() {
     (new com.question.UniqueSelection()).SelectCheckBox()
 }

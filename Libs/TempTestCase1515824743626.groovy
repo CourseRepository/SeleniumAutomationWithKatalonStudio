@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Guru99\\LoadingObject\\TC-VerifyItem\\20180105_234419\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\BootstrapComboBox\\TC-BootStrapComboBox\\20180113_115539\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/Guru99/LoadingObject/TC-VerifyItem', new TestCaseBinding('Test Cases/Guru99/LoadingObject/TC-VerifyItem', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/BootstrapComboBox/TC-BootStrapComboBox', new TestCaseBinding('Test Cases/BootstrapComboBox/TC-BootStrapComboBox', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/Guru99/LoadingObject/TC-VerifyItem')
+    TestCaseMain.logError(e, 'Test Cases/BootstrapComboBox/TC-BootStrapComboBox')
 }

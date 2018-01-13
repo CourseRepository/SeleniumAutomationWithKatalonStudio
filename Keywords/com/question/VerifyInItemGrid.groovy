@@ -60,5 +60,12 @@ public class VerifyInItemGrid {
 	
 		return table
 	}
+	
+	@Keyword
+	public void multipleTestObject(String str,TestObject objectOne,TestObject objectTwo,TestObject ObjectThree){
+		println objectOne.toString()
+		println objectTwo.toString()
+		println ObjectThree.toString()
+	}
 
 }

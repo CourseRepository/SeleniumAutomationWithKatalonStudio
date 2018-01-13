@@ -54,5 +54,11 @@ class JavaScriptListener {
 		KeywordUtil.markWarning("After Test Suite Listener : " + testSuite.getTestSuiteId())
 	}
 	
+	@AfterTestCase
+	public void closeBrowser(){
+		WebUI.switchToDefaultContent()
+		WebUI.closeBrowser()
+	}
+	
 	
 }
