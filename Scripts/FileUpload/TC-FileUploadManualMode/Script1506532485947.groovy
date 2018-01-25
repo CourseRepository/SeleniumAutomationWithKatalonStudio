@@ -54,5 +54,6 @@ WebUI.verifyTextPresent('Bug \\d+', true)
 
 WebUI.verifyTextPresent(description, false)
 
+
 CustomKeywords.'com.helper.login.LoginHelper.logoutFromApplication'()
 

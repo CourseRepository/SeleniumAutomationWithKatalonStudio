@@ -73,6 +73,7 @@
 	<classpathentry kind="lib" path="D:/GitHub/SeleniumAutomationWithKatalonStudio/Drivers/commons-collections4-4.1.jar"/>
 	<classpathentry kind="lib" path="D:/GitHub/SeleniumAutomationWithKatalonStudio/Drivers/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/GitHub/SeleniumAutomationWithKatalonStudio/Drivers/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/SeleniumAutomationWithKatalonStudio/Drivers/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="D:/GitHub/SeleniumAutomationWithKatalonStudio/Drivers/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="D:/GitHub/SeleniumAutomationWithKatalonStudio/Drivers/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="D:/GitHub/SeleniumAutomationWithKatalonStudio/Drivers/poi-3.17.jar"/>

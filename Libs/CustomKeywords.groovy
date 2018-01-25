@@ -135,3 +135,9 @@ def static "com.question.VerifyInItemGrid.multipleTestObject"(
 def static "com.question.UniqueSelection.SelectCheckBox"() {
     (new com.question.UniqueSelection()).SelectCheckBox()
 }
+
+def static "com.question.CustomJsonParser.jsonExtractor"(
+    	String response	) {
+    (new com.question.CustomJsonParser()).jsonExtractor(
+        	response)
+}

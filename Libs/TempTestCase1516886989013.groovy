@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\BootstrapComboBox\\TC-BootStrapComboBox\\20180113_114724\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\JsonParser\\TC-ParseJson\\20180125_185949\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/BootstrapComboBox/TC-BootStrapComboBox', new TestCaseBinding('Test Cases/BootstrapComboBox/TC-BootStrapComboBox', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/JsonParser/TC-ParseJson', new TestCaseBinding('Test Cases/JsonParser/TC-ParseJson', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/BootstrapComboBox/TC-BootStrapComboBox')
+    TestCaseMain.logError(e, 'Test Cases/JsonParser/TC-ParseJson')
 }
