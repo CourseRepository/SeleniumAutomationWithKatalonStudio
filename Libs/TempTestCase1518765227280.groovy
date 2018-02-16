@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Scania\\TC-Scania\\20180213_230730\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\KeyboardActions\\TC-MultipleWindowsInSame\\20180216_124342\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/Scania/TC-Scania', new TestCaseBinding('Test Cases/Scania/TC-Scania', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/KeyboardActions/TC-MultipleWindowsInSame', new TestCaseBinding('Test Cases/KeyboardActions/TC-MultipleWindowsInSame', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/Scania/TC-Scania')
+    TestCaseMain.logError(e, 'Test Cases/KeyboardActions/TC-MultipleWindowsInSame')
 }
