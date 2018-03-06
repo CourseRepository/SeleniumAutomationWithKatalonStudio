@@ -8,34 +8,6 @@ import java.lang.String
 import com.kms.katalon.core.testobject.TestObject
 
 
-def static "com.helper.navigate.NavigationHelper.navigateToMenuItem"(
-    	String menuName	) {
-    (new com.helper.navigate.NavigationHelper()).navigateToMenuItem(
-        	menuName)
-}
-
-def static "com.helper.grid.GridHelper.GetValueFromGrid"(
-    	TestObject baseTestObject	
-     , 	int rowIndex	
-     , 	int colIndex	) {
-    (new com.helper.grid.GridHelper()).GetValueFromGrid(
-        	baseTestObject
-         , 	rowIndex
-         , 	colIndex)
-}
-
-def static "com.helper.grid.GridHelper.getValueOrClickOnColumn"(
-    	TestObject baseTestObject	
-     , 	int rowIndex	
-     , 	int colIndex	
-     , 	String type	) {
-    (new com.helper.grid.GridHelper()).getValueOrClickOnColumn(
-        	baseTestObject
-         , 	rowIndex
-         , 	colIndex
-         , 	type)
-}
-
 def static "com.helper.login.LoginHelper.loginIntoApplication"(
     	String applicationUrl	
      , 	String Username	
@@ -140,4 +112,32 @@ def static "com.question.CustomJsonParser.jsonExtractor"(
     	String response	) {
     (new com.question.CustomJsonParser()).jsonExtractor(
         	response)
+}
+
+def static "com.helper.navigate.NavigationHelper.navigateToMenuItem"(
+    	String menuName	) {
+    (new com.helper.navigate.NavigationHelper()).navigateToMenuItem(
+        	menuName)
+}
+
+def static "com.helper.grid.GridHelper.GetValueFromGrid"(
+    	TestObject baseTestObject	
+     , 	int rowIndex	
+     , 	int colIndex	) {
+    (new com.helper.grid.GridHelper()).GetValueFromGrid(
+        	baseTestObject
+         , 	rowIndex
+         , 	colIndex)
+}
+
+def static "com.helper.grid.GridHelper.getValueOrClickOnColumn"(
+    	TestObject baseTestObject	
+     , 	int rowIndex	
+     , 	int colIndex	
+     , 	String type	) {
+    (new com.helper.grid.GridHelper()).getValueOrClickOnColumn(
+        	baseTestObject
+         , 	rowIndex
+         , 	colIndex
+         , 	type)
 }
