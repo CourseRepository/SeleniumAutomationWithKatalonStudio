@@ -26,6 +26,14 @@ def static "com.helper.login.LoginHelper.logoutFromApplication"() {
     (new com.helper.login.LoginHelper()).logoutFromApplication()
 }
 
+def static "com.question.CustomDatabase.executeQuery"(
+    	String connectionUrl	
+     , 	String query	) {
+    (new com.question.CustomDatabase()).executeQuery(
+        	connectionUrl
+         , 	query)
+}
+
 def static "com.helper.excel.ExcelHelper.writeTOExcelFile"(
     	String excelPath	
      , 	String sheetName	
@@ -112,6 +120,24 @@ def static "com.question.CustomJsonParser.jsonExtractor"(
     	String response	) {
     (new com.question.CustomJsonParser()).jsonExtractor(
         	response)
+}
+
+def static "com.question.GetMetrics.getAlarmsCountfromGA"() {
+    (new com.question.GetMetrics()).getAlarmsCountfromGA()
+}
+
+def static "com.question.RandomEmail.getEmail"(
+    	String suffix	
+     , 	String prefix	) {
+    (new com.question.RandomEmail()).getEmail(
+        	suffix
+         , 	prefix)
+}
+
+def static "com.question.ClickAnyLink.wrapperClick"(
+    	String linkName	) {
+    (new com.question.ClickAnyLink()).wrapperClick(
+        	linkName)
 }
 
 def static "com.helper.navigate.NavigationHelper.navigateToMenuItem"(
