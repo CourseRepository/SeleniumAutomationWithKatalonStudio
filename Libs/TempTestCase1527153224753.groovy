@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Question\\GenerateRandomMailId\\20180504_224336\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\rathr1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Question\\TC- UpAndDownControl\\20180524_144340\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/Question/GenerateRandomMailId', new TestCaseBinding('Test Cases/Question/GenerateRandomMailId', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/Question/TC- UpAndDownControl', new TestCaseBinding('Test Cases/Question/TC- UpAndDownControl', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/Question/GenerateRandomMailId')
+    TestCaseMain.logError(e, 'Test Cases/Question/TC- UpAndDownControl')
 }
