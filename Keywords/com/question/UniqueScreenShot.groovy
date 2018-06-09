@@ -8,6 +8,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
+import com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
@@ -25,32 +26,13 @@ import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
-public class ClickAnyLink {
-	private String createLinkXpath(String linkXpath) {
-		return "//span[text()='"+linkXpath+"']"
-	}
-
-	private TestObject getLinkXpath(String linkName) {
-		TestObject linkToCLick = new TestObject(linkName);
-		println "getLinkXpath called"
-		/*		println("**********************"+linkToCLick)
-		 println("**********************"+createLinkXpath(linkName))
-		 linkToCLick.addProperty("xpath", ConditionType.EQUALS, createLinkXpath(linkName), true);
-		 println("**********************"+linkToCLick)
-		 */		return linkToCLick
-	}
+public class UniqueScreenShot {
+	
 	@Keyword
-	public void wrapperClick(String linkName){
-		clickALink(linkName)
+	public void takeScreenShot(String path, String name){
+		String fullPath = path + name + (int)(Math.random() * 10000) + ".jpg"
+		println WebUI.takeScreenshot(fullPath);
 	}
-
-
-	public void clickALink(String linkName) {
-		/*TestObject linkToCLick = getLinkXpath(linkName);
-		 println("*********++++++++++++++*************"+linkToCLick)
-		 WebUI.waitForElementVisible(linkToCLick, GlobalVariable.GlobalDelay)
-		 WebUI.click(linkToCLick)
-		 WebUI.delay(5)*/
-		println linkName
-	}
+	
+	
 }

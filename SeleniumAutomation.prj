@@ -4,5 +4,6 @@
    <name>SeleniumAutomation</name>
    <tag></tag>
    <UUID>8768badd-1129-4c98-b183-5ecc37b057d6</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

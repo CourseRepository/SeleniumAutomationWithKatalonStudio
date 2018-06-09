@@ -27,14 +27,14 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class GridHelper {
-	
+
 	/**
 	 * 1. Test Object for the web table
 	 * 2. Row Index
 	 * 3. Column Index
 	 *
 	 * */
-	
+
 	private TestObject getTestObject(TestObject baseTestObject,String xpath){
 		/*
 		 * 1. Get the base xpath from the test object
@@ -43,22 +43,21 @@ public class GridHelper {
 		 * 4. return the updated test object
 		 * 
 		 * */
-		
+
 		String baseXpath = baseTestObject.getProperties().get(0).getValue();
 		String updatedXpath = baseXpath + xpath;
-		
+
 		TestObject updatedTestObject = new TestObject("Grid")
 		updatedTestObject.addProperty("xpath", ConditionType.EQUALS, updatedXpath)
 		return updatedTestObject
-		
 	}
-	
+
 	@Keyword
 	public String GetValueFromGrid(TestObject baseTestObject,int rowIndex,int colIndex){
 		TestObject updatedTestObject = getTestObject(baseTestObject,"/tr[" + rowIndex+  "]/td[" + colIndex + "]")
 		return WebUI.getText(updatedTestObject)
 	}
-	
+
 	@Keyword
 	public String getValueOrClickOnColumn(TestObject baseTestObject,int rowIndex,int colIndex,String type){
 		/**
@@ -66,10 +65,10 @@ public class GridHelper {
 		 * Type = Button //table[@role='grid']/tbody - base xpath --- /tr[index]/td[index]/a
 		 * Type = Value //table[@role='grid']/tbody/tr[3]/td[3]
 		 * */
-		
-		
+
+
 		TestObject updatedTestObject = null
-		
+
 		if("CheckBox".equalsIgnoreCase(type)){
 			updatedTestObject = getTestObject(baseTestObject,"/tr[" + rowIndex+  "]/td[" + colIndex + "]/input")
 			WebUI.click(updatedTestObject)
@@ -83,6 +82,4 @@ public class GridHelper {
 			return WebUI.getText(updatedTestObject)
 		}
 	}
-	
-
 }

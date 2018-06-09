@@ -167,3 +167,11 @@ def static "com.helper.grid.GridHelper.getValueOrClickOnColumn"(
          , 	colIndex
          , 	type)
 }
+
+def static "com.question.UniqueScreenShot.takeScreenShot"(
+    	String path	
+     , 	String name	) {
+    (new com.question.UniqueScreenShot()).takeScreenShot(
+        	path
+         , 	name)
+}

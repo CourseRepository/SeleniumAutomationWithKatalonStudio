@@ -15,6 +15,7 @@ import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
@@ -24,6 +25,12 @@ WebUI.openBrowser('https://focis.agility.com/pages/qm/multiquote/multiquotecarri
 WebUI.waitForPageLoad(30)
 
 WebUI.maximizeWindow()
+
+WebElement element = WebUiCommonHelper.findWebElement(null, GlobalVariable.TimeOut)
+
+
+
+
 
 CustomKeywords.'com.question.UniqueSelection.SelectCheckBox'()
 
