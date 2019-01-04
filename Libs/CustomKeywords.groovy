@@ -70,6 +70,14 @@ def static "com.helper.javascript.JavaScriptHelper.executeAndReturnValue"(
          , 	testObject)
 }
 
+def static "com.question.CustomSendKeys.TypeInText"(
+    	TestObject aLocator	
+     , 	String text	) {
+    (new com.question.CustomSendKeys()).TypeInText(
+        	aLocator
+         , 	text)
+}
+
 def static "com.helper.browserhelper.CustomBrowser.openBrowser"() {
     (new com.helper.browserhelper.CustomBrowser()).openBrowser()
 }
@@ -166,6 +174,10 @@ def static "com.helper.grid.GridHelper.getValueOrClickOnColumn"(
          , 	rowIndex
          , 	colIndex
          , 	type)
+}
+
+def static "com.question.BrowserTab.openNewTab"() {
+    (new com.question.BrowserTab()).openNewTab()
 }
 
 def static "com.question.UniqueScreenShot.takeScreenShot"(

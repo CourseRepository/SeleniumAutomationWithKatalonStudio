@@ -39,4 +39,9 @@
       <initValue>'test'</initValue>
       <name>Name</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DummyValue'</initValue>
+      <name>NewProperty</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -48,10 +48,15 @@ public class GlobalVariable {
      */
     public static Object Name
      
+    /**
+     * <p></p>
+     */
+    public static Object NewProperty
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['ApplicationUrl' : 'http://192.168.1.108:5001/', 'Username' : 'rahul@bugzila.com', 'Password' : 'welcome', 'DelayTime' : 3, 'TimeOut' : 40, 'Path' : 'D:\\src\\', 'Name' : 'test'])
+        allVariables.put('default', ['ApplicationUrl' : 'http://192.168.1.108:5001/', 'Username' : 'rahul@bugzila.com', 'Password' : 'welcome', 'DelayTime' : 3, 'TimeOut' : 40, 'Path' : 'D:\\src\\', 'Name' : 'test', 'NewProperty' : 'DummyValue'])
         allVariables.put('stage', allVariables['default'] + [:])
         
         String profileName = RunConfiguration.getExecutionProfile()
@@ -64,6 +69,7 @@ public class GlobalVariable {
         TimeOut = selectedVariables['TimeOut']
         Path = selectedVariables['Path']
         Name = selectedVariables['Name']
+        NewProperty = selectedVariables['NewProperty']
         
     }
 }

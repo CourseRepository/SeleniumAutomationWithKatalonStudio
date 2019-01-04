@@ -33,17 +33,17 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class Configuration {
-	
+
 	public Configuration withUrl(String url){
 		WebUI.openBrowser(url)
 		return this;
 	}
-	
+
 	public Configuration withDelay(int seconds){
 		WebUI.delay(seconds)
 		return this;
 	}
-	
+
 	public void select(){
 		WebDriver driver = DriverFactory.getWebDriver()
 		driver.findElement(By.xpath("//input[@id='btnactualizar']")).click()
@@ -52,7 +52,5 @@ public class Configuration {
 		wait.ignoring(null)
 		Select select = new Select(driver.findElement(By.id("motivoSlt")))
 		select.selectByValue("0001")
-		
 	}
-
 }

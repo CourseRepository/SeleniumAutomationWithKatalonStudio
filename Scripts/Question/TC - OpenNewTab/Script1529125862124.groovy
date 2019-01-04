@@ -19,20 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//opening the browser
-WebUI.openBrowser('')
+WebUI.openBrowser("https://www.google.com/")
 
-WebUI.waitForAlert(GlobalVariable.ApplicationUrl)
+WebUI.delay(3);
 
-//opening the page inside browser
-WebUI.navigateToUrl('http://localhost:5001/')
+CustomKeywords.'com.question.BrowserTab.openNewTab'()
 
-// Click on File a Bug link
-WebUI.click(findTestObject('Object Repository/BugzillaWebElement/Page_Bugzilla Main Page/span_File a Bug'))
-
-// Click on Login button
-WebUI.click(findTestObject('Object Repository/BugzillaWebElement/Page_Log in to Bugzilla/input_GoAheadAndLogIn'))
-
-//Close the browser
 WebUI.closeBrowser()
-

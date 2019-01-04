@@ -40,31 +40,30 @@ import WebUiBuiltInKeywords as WebUI
  * */
 
 public class LoginHelper {
-	
+
 	@Keyword
 	public void loginIntoApplication(String applicationUrl,String Username,String Password){
-		
+
 		WebUI.openBrowser(applicationUrl)
 		WebUI.waitForPageLoad(GlobalVariable.TimeOut)
 		WebUI.maximizeWindow()
-		
+
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Bugzilla/HomePage/FlieBugLink'), GlobalVariable.TimeOut)
 		WebUI.click(findTestObject('Object Repository/Bugzilla/HomePage/FlieBugLink'))
-		
+
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Bugzilla/LoginPage/LoginBtn'), GlobalVariable.TimeOut)
-		
+
 		WebUI.sendKeys(findTestObject('Object Repository/Bugzilla/LoginPage/UsernameTxtBox'), Username)
 		WebUI.sendKeys(findTestObject('Object Repository/Bugzilla/LoginPage/PasswordTxtBox'), Password)
 		WebUI.click(findTestObject('Object Repository/Bugzilla/LoginPage/LoginBtn'))
 		WebUI.delay(1)
-		
 	}
-	
+
 	@Keyword
 	public void loginIntoApplicationWith(){
 		loginIntoApplication(GlobalVariable.ApplicationUrl,GlobalVariable.Username,GlobalVariable.Password)
 	}
-	
+
 	@Keyword
 	public void logoutFromApplication(){
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Bugzilla/HomePage/LogoutBtn'), GlobalVariable.TimeOut)
@@ -72,5 +71,4 @@ public class LoginHelper {
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Bugzilla/HomePage/FlieBugLink'), GlobalVariable.TimeOut)
 		WebUI.closeBrowser()
 	}
-
 }

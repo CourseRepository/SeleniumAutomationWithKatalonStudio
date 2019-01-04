@@ -13,20 +13,20 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import internal.GlobalVariable
 
 public class JavaScriptHelper {
-	
-	
+
+
 	// To get implementation for webdriver api from KS
 	WebDriver driver = DriverFactory.getWebDriver()
-	
+
 	//To get the instance of Java Script executor interface
 	JavascriptExecutor executor = ((JavascriptExecutor)driver)
-	
+
 	@Keyword
 	public void executeScript(String script){
 		KeywordUtil.logInfo("[Java Script ] : " + script)
 		executor.executeScript(script)
 	}
-	
+
 	@Keyword
 	public void executeScriptOnTestObject(String string,TestObject testObject){
 		// Converting test object to webelement
@@ -37,15 +37,15 @@ public class JavaScriptHelper {
 		}catch(Exception ex){
 			KeywordUtil.markErrorAndStop("[Custom Keyword Error] : " + ex.toString())
 		}
-		
-		
+
+
 	}
-	
+
 	@Keyword
 	public Object executeAndReturnValue(String script,TestObject testObject){
 		WebElement element = WebUiCommonHelper.findWebElement(testObject, GlobalVariable.TimeOut)
 		// Will execute the js and retrun the value also
 		return executor.executeScript(script, element)
 	}
-	
+
 }
