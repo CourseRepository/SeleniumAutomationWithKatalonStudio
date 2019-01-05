@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
 
+import com.gargoylesoftware.htmlunit.ElementNotFoundException
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
@@ -43,4 +44,14 @@ public class CustomSendKeys {
 		element.sendKeys(text);
 	}
 
+	@Keyword
+	public void TypeInTextBoxWithWait(TestObject aLocator,String text,int timeOutInSeconds){
+		WebDriver driver = DriverFactory.getWebDriver();
+		WebElement element = WebUiCommonHelper.findWebElement(aLocator, 60);
+		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+		wait.ignoring(NoSuchElementException.class, ElementNotFoundException.class);
+		wait.pollingEvery(250, TimeUnit.MILLISECONDS);
+		wait.until(ExpectedConditions.visibilityOf(element));
+		element.sendKeys(text);
+	}
 }

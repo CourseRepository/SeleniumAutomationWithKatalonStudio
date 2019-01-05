@@ -85,6 +85,5 @@
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio/Drivers/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="C:/Data/GitHub/SeleniumAutomationWithKatalonStudio/Drivers/xmlbeans-2.6.0.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

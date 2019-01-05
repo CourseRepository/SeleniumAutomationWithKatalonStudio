@@ -78,6 +78,16 @@ def static "com.question.CustomSendKeys.TypeInText"(
          , 	text)
 }
 
+def static "com.question.CustomSendKeys.TypeInTextBoxWithWait"(
+    	TestObject aLocator	
+     , 	String text	
+     , 	int timeOutInSeconds	) {
+    (new com.question.CustomSendKeys()).TypeInTextBoxWithWait(
+        	aLocator
+         , 	text
+         , 	timeOutInSeconds)
+}
+
 def static "com.helper.browserhelper.CustomBrowser.openBrowser"() {
     (new com.helper.browserhelper.CustomBrowser()).openBrowser()
 }
