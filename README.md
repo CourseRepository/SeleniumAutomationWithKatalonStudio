@@ -2,6 +2,9 @@
 
 Katalon Studio is a comprehensive tool set for web and mobile app automation testing.
 
+# Get Katalon Studio for FREE
+
+https://www.katalon.com/?getr=NDY1OTMx 
 
 # Course Link (Discount Coupon)
 
